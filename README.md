@@ -23,14 +23,15 @@ The main feature is tracking user activity in Windows. The script gently dims th
    
 ## 📖 How to use
 1. Create a folder where it's convenient for you to store the script, and place the script itself in that folder
-2. Open the folder in the terminal or run cmd as an administrator and type `cd “path to your folder”`
-3. Copy and paste `python -m PyInstaller --noconsole --onefile openrgb-idle-controller.py` inside terminal and press Enter
-4. Now find the Task Scheduler and open it
-5. In the Task Scheduler interface, on the right, you'll see the “Task Scheduler Library.” From the list there, click “Create a simple task"
-6. Name your task whatever you like, then proceed to the next step, where you'll need to select “When Windows starts,” then choose “Run a program” and specify the path to your folder
-7. Inside the folder, navigate to the “dist” folder, which contains “openrgb-idle-controller.exe”—the file we need to specify for the Task Scheduler to run. Click ‘Next’ and “Finish.”
-8. Open OpenRGB, go to Settings, and select the options shown in my screenshot below. You can specify any other port for the server.
-9. Enjoy!
+2. Customize the script settings to suit your needs
+3. Open the folder in the terminal or run cmd as an administrator and type `cd “path to your folder”`
+4. Copy and paste `python -m PyInstaller --noconsole --onefile openrgb-idle-controller.py` inside terminal and press Enter
+5. Now find the Task Scheduler and open it
+6. In the Task Scheduler interface, on the right, you'll see the “Task Scheduler Library.” From the list there, click “Create a simple task"
+7. Name your task whatever you like, then proceed to the next step, where you'll need to select “When Windows starts,” then choose “Run a program” and specify the path to your folder
+8. Inside the folder, navigate to the “dist” folder, which contains “openrgb-idle-controller.exe”—the file we need to specify for the Task Scheduler to run. Click ‘Next’ and “Finish.”
+9. Open OpenRGB, go to Settings, and select the options shown in my screenshot below. You can specify any other port for the server.
+10. Enjoy!
     
 <img width="554" height="173" alt="image" src="https://github.com/user-attachments/assets/9e5b4983-bf99-4d81-83d4-5fc7d85672cd" />
 
